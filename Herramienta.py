@@ -1,9 +1,29 @@
 import subprocess
 import sys
 import re
+import requests
+import sublist3r
 
+def sublist3r_exe(domain):
+    no_threads = 10  # Número de hilos que Sublist3r usará
+    savefile = None  # No guardaremos los resultados en un archivo
+    ports = None  # No escanearemos puertos
+    silent = True  # No mostramos salida detallada
+    verbose = False  # No mostramos salida detallada
+    enable_bruteforce = False  # No habilitamos fuerza bruta
+    engines = None  # Usamos todos los motores de búsqueda disponibles
+    
+    subdomains = sublist3r.main(domain, no_threads, savefile, ports, silent, verbose, enable_bruteforce, engines)
+    #print(subdomains)
+    return subdomains
 
-
+def get_crt(domain):
+    subdomains=[]
+    response = requests.get('https://crt.sh/?q=%s&output=json' % domain)
+    for i in response.json():
+        subdomains.append(i['common_name'])
+        subdomains.append(i['name_value'])
+    return subdomains
 
 def run_dmitry(domain):
     command = ['dmitry', '-s', 'http://{}'.format(domain)]
@@ -28,14 +48,15 @@ def dns_scan(domain):
         results = []
         for record in records:
             if record[1] == 'CNAME':
-                results.append({'sitio': record[0]})
+                results.append({'subdominio': record[0]})
             elif record[1] == 'A':
-                results.append({'sitio': record[0], 'ip': record[2]})
+                results.append({'subdominio': record[0], 'ip': record[2]})
         
         return results
     else:
         print(f"Error: {result.stderr}")
         return None
+
 
 def httprobe():
     command = 'cat dominios.txt | ./httprobe'
@@ -52,14 +73,8 @@ def main():
         return
     
     domain = sys.argv[1]
-    dnsscan = dns_scan(domain)
-    #como guardo los dominios en un txt
-    with open('dominios.txt', 'w') as file:
-        for d in dnsscan:
-            file.write(d['sitio'] + '\n')
-    resultados = httprobe()
-    print(resultados)
-    
+    resultados_dns_scan = dns_scan(domain)
+     
 
     
     #save_response_to_file(response, 'dmitry_output.txt')
