@@ -67,22 +67,27 @@ def httpx(union):
     
     return json_objects
 
-def filtrar_domanis(json_objects):
+def filtrar_dominios(json_objects, domain):
     dominios_positivos = []
     dominios_negativos = []
 
     for obj in json_objects:
-        if obj.get('failed', False):
-            dominios_negativos.append(obj)
+        status_code = obj.get('status_code')
+        url = obj.get('url', None)
+        host = obj.get('host', None)
+        
+        if status_code == 200:
+            dominios_positivos.append({'url': url, 'host': host})
         else:
-            dominios_positivos.append(obj)
+            dominios_negativos.append({'url': url, 'host': host})
 
     # Guardar en archivos JSON
-    with open('positivos.json', 'w') as f_positivos:
+    with open(f'{domain}_positivos.json', 'w') as f_positivos:
         json.dump(dominios_positivos, f_positivos, indent=2)
 
-    with open('negativos.json', 'w') as f_negativos:
+    with open(f'{domain}_negativos.json', 'w') as f_negativos:
         json.dump(dominios_negativos, f_negativos, indent=2)
+
     return dominios_positivos
         
 
@@ -115,15 +120,12 @@ def main():
     print(f"Se encontraron {len(resultado_subfinder)} subdominios")
     #union.add_elements(resultado_subfinder)
     print('-------Resultados-------')
-    union.save_unique_elements_to_file(f'resultado_{domain}.txt')
+    #union.save_unique_elements_to_file(f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
-    resultrado_filtrado=filtrar_domanis(resultado)
+    resultrado_filtrado=filtrar_dominios(resultado,domain)
     
     #union.print_unique_elements()
     
-
-
-
 if __name__ == '__main__':
     main()

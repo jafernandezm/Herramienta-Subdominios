@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://mail.lapaz.gob.bo",
+    "host": "200.105.215.34"
+  },
+  {
+    "url": "https://siremin.lapaz.gob.bo",
+    "host": "172.67.145.225"
+  },
+  {
+    "url": "https://web.lapaz.gob.bo",
+    "host": "200.105.215.38"
+  },
+  {
+    "url": "https://autonomias.lapaz.gob.bo",
+    "host": "172.67.145.225"
+  },
+  {
+    "url": "https://codepedis.lapaz.gob.bo",
+    "host": "172.67.145.225"
+  },
+  {
+    "url": "https://www.lapaz.gob.bo",
+    "host": "172.67.145.225"
+  },
+  {
+    "url": "https://hemeroteca.lapaz.gob.bo",
+    "host": "172.67.145.225"
+  },
+  {
+    "url": "https://sio.lapaz.gob.bo",
+    "host": "104.21.28.112"
+  },
+  {
+    "url": "http://smail.lapaz.gob.bo",
+    "host": "186.121.242.109"
+  },
+  {
+    "url": "http://sidelp.lapaz.gob.bo",
+    "host": "186.121.242.109"
+  },
+  {
+    "url": "http://viaticos.lapaz.gob.bo",
+    "host": "186.121.242.109"
+  },
+  {
+    "url": "http://sdia.lapaz.gob.bo",
+    "host": "186.121.242.109"
+  }
+]

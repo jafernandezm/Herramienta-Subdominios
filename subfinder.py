@@ -6,5 +6,7 @@ def subfinder_exec(domain):
     # leer el .txt y meterlo en una lista
     with open(f'{domain}.txt', 'r') as file:
         subdomains = [line.strip() for line in file.readlines()]
+    #borrar el archivo
+    subprocess.run(['rm', f'{domain}.txt'])
     return subdomains
 ####
