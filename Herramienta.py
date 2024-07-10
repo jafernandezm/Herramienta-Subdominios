@@ -2,19 +2,15 @@ import subprocess
 import sys
 import re
 import requests
-import sublist3r
+from sublister_exe import sublist3r_exe
+from virustotal import get_subdomains_VirusTotal
+from subfinder import subfinder_exec
+from unicosDominios import UniqueUnion
 
-def sublist3r_exe(domain):
-    no_threads = 10  # Número de hilos que Sublist3r usará
-    savefile = None  # No guardaremos los resultados en un archivo
-    ports = None  # No escanearemos puertos
-    silent = True  # No mostramos salida detallada
-    verbose = False  # No mostramos salida detallada
-    enable_bruteforce = False  # No habilitamos fuerza bruta
-    engines = None  # Usamos todos los motores de búsqueda disponibles
-    
-    subdomains = sublist3r.main(domain, no_threads, savefile, ports, silent, verbose, enable_bruteforce, engines)
-    #print(subdomains)
+def get_amass(domain):
+    command = [f'amass enum -d {domain} -timeout 1 -nocolor']
+    amass_result = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split()
+    subdomains = [cadena for cadena in amass_result if 'gob.bo' in cadena]
     return subdomains
 
 def get_crt(domain):
@@ -28,7 +24,7 @@ def get_crt(domain):
 def run_dmitry(domain):
     command = ['dmitry', '-s', 'http://{}'.format(domain)]
     result = subprocess.run(command, capture_output=True, text=True)
-    print(result)
+    #print(result)
     return result.stdout
 
 def dns_scan(domain):
@@ -41,18 +37,13 @@ def dns_scan(domain):
     result = subprocess.run(command, capture_output=True, text=True)
     if result.returncode == 0:
         output = result.stdout
-        # Filtrar dominios y direcciones IP usando expresiones regulares
+        # Filtrar dominios usando expresiones regulares
         records = re.findall(r'^([\w.-]+)\. \d+ IN (CNAME|A) (.+)', output, re.MULTILINE)
         
-        # Almacenar resultados en un array de diccionarios
-        results = []
-        for record in records:
-            if record[1] == 'CNAME':
-                results.append({'subdominio': record[0]})
-            elif record[1] == 'A':
-                results.append({'subdominio': record[0], 'ip': record[2]})
+        # Almacenar resultados en una lista de subdominios
+        subdomains = [record[0] for record in records]
         
-        return results
+        return subdomains
     else:
         print(f"Error: {result.stderr}")
         return None
@@ -69,15 +60,32 @@ def save_response_to_file(response, filename):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 analyze_domain.py <domain>")
+        print("Usage: python3 Herramienta.py <domain>")
         return
-    
+    #subdmains=[]
     domain = sys.argv[1]
+    #resultados
+    print('dns_scan runing...')
+    union = UniqueUnion()
     resultados_dns_scan = dns_scan(domain)
-     
-
+    #mostrar cantidad de subdominios encontrados
+    print(f"Se encontraron {len(resultados_dns_scan)} subdominios")
+    union.add_elements(resultados_dns_scan)
+    #print(resultados_dns_scan)
+    print('virusTotal runing...')
+    resultado_virtual_total = get_subdomains_VirusTotal(domain)
+    print(f"Se encontraron {len(resultado_virtual_total)} subdominios")
+    union.add_elements(resultado_virtual_total)
+    #print('csrt runing...')
+    #subdomains = set(resultados_dns_scan).union(resultado_virtual_total)
+    print('subfinder runing...')
+    resultado_subfinder = subfinder_exec(domain)
+    print(f"Se encontraron {len(resultado_subfinder)} subdominios")
+    union.add_elements(resultado_subfinder)
+    union.print_unique_elements()
     
-    #save_response_to_file(response, 'dmitry_output.txt')
+
+
 
 if __name__ == '__main__':
     main()

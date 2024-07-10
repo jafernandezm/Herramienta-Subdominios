@@ -11,3 +11,6 @@ unzip master.zip
 
 pip install sublist3r
 
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
+
