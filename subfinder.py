@@ -7,3 +7,4 @@ def subfinder_exec(domain):
     with open(f'{domain}.txt', 'r') as file:
         subdomains = [line.strip() for line in file.readlines()]
     return subdomains
+####
