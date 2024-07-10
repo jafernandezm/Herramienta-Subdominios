@@ -2,10 +2,10 @@ import subprocess
 import sys
 import re
 import requests
-from sublister_exe import sublist3r_exe
-from virustotal import get_subdomains_VirusTotal
-from subfinder import subfinder_exec
-from unicosDominios import UniqueUnion
+from implementaciones.sublister_exe import sublist3r_exe
+from implementaciones.virustotal import get_subdomains_VirusTotal
+from implementaciones.subfinder import subfinder_exec
+from implementaciones.unicosDominios import UniqueUnion
 import json
 
 def get_amass(domain):
@@ -77,11 +77,12 @@ def filtrar_dominios(json_objects, domain):
         status_code = obj.get('status_code')
         url = obj.get('url', None)
         host = obj.get('host', None)
+        status_code = obj.get('status_code', None)
         # Filtrar dominios por código de estado 200 y 301
-        if status_code == 200 or status_code == 301:
-            dominios_positivos.append({'url': url, 'host': host})
+        if (status_code == 200 or status_code == 301 or status_code == 302 or status_code == 303 or status_code == 304 or status_code == 307 or status_code == 308):
+            dominios_positivos.append({'url': url, 'host': host, 'status_code': status_code})
         else:
-            dominios_negativos.append({'url': url, 'host': host})
+            dominios_negativos.append({'url': url, 'host': host, 'status_code': status_code})
 
     # Guardar en archivos JSON
     with open(f'{domain}_positivos.json', 'w') as f_positivos:
@@ -109,23 +110,32 @@ def main():
     print('amass runing...')
     resultados_amass = get_amass(domain)
     print(f"Se encontraron {len(resultados_amass)} subdominios")
+    print('-------')
     union.add_elements(resultados_amass)
     print('dns_scan runing...')
     resultados_dns_scan = dns_scan(domain)
     #mostrar cantidad de subdominios encontrados
     print(f"Se encontraron {len(resultados_dns_scan)} subdominios")
     union.add_elements(resultados_dns_scan)
+    print('-------')
     #print(resultados_dns_scan)
     print('virusTotal runing...')
     resultado_virtual_total = get_subdomains_VirusTotal(domain)
     print(f"Se encontraron {len(resultado_virtual_total)} subdominios")
     union.add_elements(resultado_virtual_total)
+    print('-------')
     #print('csrt runing...')
     #subdomains = set(resultados_dns_scan).union(resultado_virtual_total)
     print('subfinder runing...')
     resultado_subfinder = subfinder_exec(domain)
     print(f"Se encontraron {len(resultado_subfinder)} subdominios")
     union.add_elements(resultado_subfinder)
+    print('-------')
+    #sublist3r_exe(domain)
+    print('sublist3r runing...')
+    resultado_sublist3r_exe = sublist3r_exe(domain)
+    print(f"Se encontraron {len(resultado_sublist3r_exe)} subdominios")
+    union.add_elements(resultado_sublist3r_exe)
     print('-------Resultados-------')
     union.save_unique_elements_to_file(f'resultado_{domain}.txt')
     resultado=httpx(union)

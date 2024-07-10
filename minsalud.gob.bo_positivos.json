@@ -1,198 +1,107 @@
 [
   {
-    "url": "https://registrobecas.minsalud.gob.bo",
-    "host": "186.121.204.91"
+    "url": "https://desastres.minsalud.gob.bo",
+    "host": "190.181.13.158",
+    "status_code": 302
   },
   {
-    "url": "https://autorizacion.minsalud.gob.bo",
-    "host": "200.87.145.174"
+    "url": "https://tconsult.ts.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302
   },
   {
-    "url": "https://pai.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://encuesta.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://oretekove.minsalud.gob.bo",
-    "host": "181.188.148.19"
-  },
-  {
-    "url": "https://consolidacion.minsalud.gob.bo",
-    "host": "190.129.163.84"
-  },
-  {
-    "url": "https://microcenso-pai.minsalud.gob.bo",
-    "host": "200.87.145.167"
-  },
-  {
-    "url": "https://profesionalesensalud.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://estadisticas.minsalud.gob.bo",
-    "host": "200.105.138.92"
-  },
-  {
-    "url": "https://reportes-rnve.minsalud.gob.bo",
-    "host": "190.129.72.90"
-  },
-  {
-    "url": "https://mail.minsalud.gob.bo",
-    "host": "200.87.134.37"
-  },
-  {
-    "url": "https://rues3.minsalud.gob.bo",
-    "host": "200.87.145.173"
-  },
-  {
-    "url": "https://siahv.minsalud.gob.bo",
-    "host": "200.87.134.34"
-  },
-  {
-    "url": "https://pagosens.minsalud.gob.bo",
-    "host": "186.121.243.188"
-  },
-  {
-    "url": "https://reportes-siahv.minsalud.gob.bo",
-    "host": "190.129.72.90"
-  },
-  {
-    "url": "https://fortimail.minsalud.gob.bo",
-    "host": "200.87.134.37"
-  },
-  {
-    "url": "https://siahv2.minsalud.gob.bo",
-    "host": "200.87.145.174"
-  },
-  {
-    "url": "https://seguros.minsalud.gob.bo",
-    "host": "190.129.72.92"
-  },
-  {
-    "url": "https://qmara.minsalud.gob.bo",
-    "host": "190.14.106.4"
-  },
-  {
-    "url": "https://rues.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://mailpro.minsalud.gob.bo",
-    "host": "190.129.72.93"
-  },
-  {
-    "url": "https://simone.minsalud.gob.bo",
-    "host": "186.121.247.58"
-  },
-  {
-    "url": "https://ns2.minsalud.gob.bo",
-    "host": "190.129.72.93"
-  },
-  {
-    "url": "https://sirea.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://calificacionpcd.agetic.gob.bo",
-    "host": "186.121.242.37"
-  },
-  {
-    "url": "https://siccaf.minsalud.gob.bo",
-    "host": "200.105.138.98"
-  },
-  {
-    "url": "https://rnve.minsalud.gob.bo",
-    "host": "190.129.163.86"
-  },
-  {
-    "url": "https://calificacionpcd.minsalud.gob.bo",
-    "host": "186.121.242.37"
+    "url": "https://gitlab.minsalud.gob.bo",
+    "host": "200.87.145.164",
+    "status_code": 302
   },
   {
     "url": "https://sigein.minsalud.gob.bo",
-    "host": "200.87.145.165"
+    "host": "200.87.145.165",
+    "status_code": 200
   },
   {
-    "url": "https://formularios.minsalud.gob.bo",
-    "host": "186.121.204.91"
+    "url": "https://microcenso-pai.minsalud.gob.bo",
+    "host": "200.87.145.167",
+    "status_code": 200
   },
   {
-    "url": "https://siprunpcd.minsalud.gob.bo",
-    "host": "190.129.72.94"
-  },
-  {
-    "url": "https://sus-envios.minsalud.gob.bo",
-    "host": "200.105.173.27"
-  },
-  {
-    "url": "https://sismet.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://svr-mail.minsalud.gob.bo",
-    "host": "200.87.134.37"
-  },
-  {
-    "url": "https://sirepro.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://sus-poaes.minsalud.gob.bo",
-    "host": "186.121.204.91"
-  },
-  {
-    "url": "https://softcom.minsalud.gob.bo",
-    "host": "190.129.72.82"
-  },
-  {
-    "url": "https://saludoral.minsalud.gob.bo",
-    "host": "186.121.204.92"
-  },
-  {
-    "url": "https://virtual-safci.minsalud.gob.bo",
-    "host": "186.121.204.91"
+    "url": "https://pai.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 301
   },
   {
     "url": "https://sus.minsalud.gob.bo",
-    "host": "190.181.13.154"
+    "host": "190.181.13.154",
+    "status_code": 200
   },
   {
-    "url": "https://consolidador.minsalud.gob.bo",
-    "host": "186.121.204.94"
+    "url": "https://profesionalesensalud.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
   },
   {
-    "url": "https://registro-donante.minsalud.gob.bo",
-    "host": "186.121.204.91"
+    "url": "https://simone.minsalud.gob.bo",
+    "host": "186.121.247.58",
+    "status_code": 200
   },
   {
-    "url": "https://minsalud.gob.bo",
-    "host": "186.121.204.92"
+    "url": "https://virtual-safci.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
   },
   {
-    "url": "https://aulapai.minsalud.gob.bo",
-    "host": "190.129.72.90"
+    "url": "https://seguros.minsalud.gob.bo",
+    "host": "190.129.72.92",
+    "status_code": 200
   },
   {
-    "url": "https://simone10.minsalud.gob.bo",
-    "host": "186.121.247.59"
+    "url": "https://mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200
   },
   {
-    "url": "https://vdit.minsalud.gob.bo",
-    "host": "186.121.204.91"
+    "url": "https://oretekove.minsalud.gob.bo",
+    "host": "181.188.148.19",
+    "status_code": 200
   },
   {
-    "url": "https://snis.minsalud.gob.bo",
-    "host": "200.105.138.98"
+    "url": "https://calificacionpcd.minsalud.gob.bo",
+    "host": "200.87.125.227",
+    "status_code": 200
   },
   {
     "url": "https://www.minsalud.gob.bo",
-    "host": "186.121.204.92"
+    "host": "186.121.204.92",
+    "status_code": 200
   },
   {
-    "url": "https://ts.minsalud.gob.bo",
-    "host": "186.121.241.86"
+    "url": "https://calificacionpcd.agetic.gob.bo",
+    "host": "190.14.106.3",
+    "status_code": 200
+  },
+  {
+    "url": "https://qmara.minsalud.gob.bo",
+    "host": "190.14.106.4",
+    "status_code": 200
+  },
+  {
+    "url": "https://minsalud.gob.bo",
+    "host": "186.121.204.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://registro-renal.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://snis.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 200
   }
 ]
