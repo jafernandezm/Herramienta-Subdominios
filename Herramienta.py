@@ -88,7 +88,7 @@ def filtrar_dominios(json_objects, domain):
     with open(f'{domain}_negativos.json', 'w') as f_negativos:
         json.dump(dominios_negativos, f_negativos, indent=2)
 
-    return dominios_positivos
+    return dominios_positivos, dominios_negativos
         
 
 def save_response_to_file(response, filename):
@@ -102,8 +102,12 @@ def main():
     #subdmains=[]
     domain = sys.argv[1]
     #resultados
-    print('dns_scan runing...')
     union = UniqueUnion()
+    print('amass runing...')
+    resultados_amass = get_amass(domain)
+    print(f"Se encontraron {len(resultados_amass)} subdominios")
+    union.add_elements(resultados_amass)
+    print('dns_scan runing...')
     resultados_dns_scan = dns_scan(domain)
     #mostrar cantidad de subdominios encontrados
     print(f"Se encontraron {len(resultados_dns_scan)} subdominios")
@@ -123,8 +127,10 @@ def main():
     #union.save_unique_elements_to_file(f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
-    resultrado_filtrado=filtrar_dominios(resultado,domain)
+    dominios_positivos,dominios_negativos=filtrar_dominios(resultado,domain)
     
+    print(f"Se encontraron {len(dominios_positivos)} subdominios positivos")
+    print(f"Se encontraron {len(dominios_negativos)} subdominios negativos")
     #union.print_unique_elements()
     
 if __name__ == '__main__':
