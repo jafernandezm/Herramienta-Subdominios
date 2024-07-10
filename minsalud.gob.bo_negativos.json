@@ -1,0 +1,238 @@
+[
+  {
+    "url": "https://ns3.minsalud.gob.bo",
+    "host": "186.121.204.94"
+  },
+  {
+    "url": "https://certificacionvacunas.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://cmsguest01.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://desastres.minsalud.gob.bo",
+    "host": "190.181.13.158"
+  },
+  {
+    "url": "https://informaciondesastres.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://ctconan.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://movil.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo",
+    "host": "186.121.241.89"
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo",
+    "host": "190.129.72.83"
+  },
+  {
+    "url": "https://macroac_bono.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo",
+    "host": "186.121.243.187"
+  },
+  {
+    "url": "https://rnvecapacitacion.minsalud.gob.bo",
+    "host": "200.105.138.98"
+  },
+  {
+    "url": "https://reporte-sus.minsalud.gob.bo",
+    "host": "190.129.72.90"
+  },
+  {
+    "url": "http://agemed.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://prehv.minsalud.gob.bo",
+    "host": "200.105.138.98"
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "http://motomendez.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://deportes.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://cloud.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://aigem.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://pai2.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "http://ns1.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://sicap.minsalud.gob.bo",
+    "host": "186.121.204.91"
+  },
+  {
+    "url": "https://gitlab.minsalud.gob.bo",
+    "host": "200.87.145.164"
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo",
+    "host": "190.129.163.83"
+  },
+  {
+    "url": "http://control-desastres.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://postulacion.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://suis.minsalud.gob.bo",
+    "host": "200.105.138.98"
+  },
+  {
+    "url": "https://sipservice.minsalud.gob.bo",
+    "host": "200.105.138.98"
+  },
+  {
+    "url": "http://etv-dengue.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo",
+    "host": "186.121.241.84"
+  },
+  {
+    "url": "http://sida.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo",
+    "host": "186.121.241.84"
+  },
+  {
+    "url": "https://svec.minsalud.gob.bo",
+    "host": "200.105.138.98"
+  },
+  {
+    "url": "http://geo.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://epiarbovirus.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://suis-ws.minsalud.gob.bo",
+    "host": "190.129.72.90"
+  },
+  {
+    "url": "http://cooperacion.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://siahvtest.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://sinavisa.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://uan.minsalud.gob.bo",
+    "host": "190.129.72.90"
+  },
+  {
+    "url": "http://simed-unimed.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://sispoa.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://teleconsulta.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://sisvin.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://susv8.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://vmti.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://unimed.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://www.saludrenal.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "https://reportes-rues.minsalud.gob.bo",
+    "host": "200.105.138.98"
+  },
+  {
+    "url": "http://trobot.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://vportal.ts.minsalud.gob.bo",
+    "host": "186.121.241.85"
+  },
+  {
+    "url": "http://servicios.minsalud.gob.bo",
+    "host": "190.129.163.85"
+  },
+  {
+    "url": "http://informa-sus.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://sdit.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://sicovid.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://srvexpresswaye01.minsalud.gob.bo",
+    "host": null
+  },
+  {
+    "url": "http://telesalud.minsalud.gob.bo",
+    "host": null
+  }
+]

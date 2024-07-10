@@ -7,11 +7,13 @@ from virustotal import get_subdomains_VirusTotal
 from subfinder import subfinder_exec
 from unicosDominios import UniqueUnion
 import json
+
 def get_amass(domain):
     command = [f'amass enum -d {domain} -timeout 1 -nocolor']
     amass_result = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split()
     subdomains = [cadena for cadena in amass_result if 'gob.bo' in cadena]
     return subdomains
+
 
 def get_crt(domain):
     subdomains=[]
@@ -29,7 +31,7 @@ def run_dmitry(domain):
 
 def dns_scan(domain):
     # Asegúrate de que la ruta al archivo de lista de palabras sea correcta
-    wordlist_path = './dnscan/subdomains-1000.txt'
+    wordlist_path = './dnscan/subdomains-10000.txt'
     
     # Estructura correcta de la lista command, separando cada argumento
     command = ['dnscan/dnscan.py', '-d', domain, '-w', wordlist_path, '-t', '50']
@@ -46,7 +48,7 @@ def dns_scan(domain):
         return subdomains
     else:
         print(f"Error: {result.stderr}")
-        return None
+        return {}
 
 import subprocess
 
@@ -75,8 +77,8 @@ def filtrar_dominios(json_objects, domain):
         status_code = obj.get('status_code')
         url = obj.get('url', None)
         host = obj.get('host', None)
-        
-        if status_code == 200:
+        # Filtrar dominios por código de estado 200 y 301
+        if status_code == 200 or status_code == 301:
             dominios_positivos.append({'url': url, 'host': host})
         else:
             dominios_negativos.append({'url': url, 'host': host})
@@ -89,7 +91,8 @@ def filtrar_dominios(json_objects, domain):
         json.dump(dominios_negativos, f_negativos, indent=2)
 
     return dominios_positivos, dominios_negativos
-        
+
+
 
 def save_response_to_file(response, filename):
     with open(filename, 'w') as file:
@@ -122,9 +125,9 @@ def main():
     print('subfinder runing...')
     resultado_subfinder = subfinder_exec(domain)
     print(f"Se encontraron {len(resultado_subfinder)} subdominios")
-    #union.add_elements(resultado_subfinder)
+    union.add_elements(resultado_subfinder)
     print('-------Resultados-------')
-    #union.save_unique_elements_to_file(f'resultado_{domain}.txt')
+    union.save_unique_elements_to_file(f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
     dominios_positivos,dominios_negativos=filtrar_dominios(resultado,domain)
