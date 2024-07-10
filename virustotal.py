@@ -2,6 +2,7 @@
 import requests
 import json
 
+
 VIRUSTOTAL_API_KEY = '0bb035867ad4189f1ad82c124dea6315d1cb7fd7e70f67f06b26feaf4b54e429'
 
 def get_subdomains_VirusTotal(domain):
