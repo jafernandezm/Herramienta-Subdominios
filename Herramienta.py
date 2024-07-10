@@ -6,7 +6,7 @@ from sublister_exe import sublist3r_exe
 from virustotal import get_subdomains_VirusTotal
 from subfinder import subfinder_exec
 from unicosDominios import UniqueUnion
-
+import json
 def get_amass(domain):
     command = [f'amass enum -d {domain} -timeout 1 -nocolor']
     amass_result = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split()
@@ -48,11 +48,43 @@ def dns_scan(domain):
         print(f"Error: {result.stderr}")
         return None
 
+import subprocess
 
-def httprobe():
-    command = 'cat dominios.txt | ./httprobe'
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
-    return result.stdout
+def httpx(union):
+    unique_elements = union.get_unique_elements()
+    domains = ','.join(unique_elements)
+    command = f'~/go/bin/httpx -u {domains} -probe -json'
+    result = subprocess.run(command, capture_output=True, text=True, shell=True)
+    
+    # Procesar cada línea de la salida como JSON y devolver la lista de objetos JSON
+    json_objects = []
+    for line in result.stdout.splitlines():
+        try:
+            json_obj = json.loads(line)
+            json_objects.append(json_obj)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+    
+    return json_objects
+
+def filtrar_domanis(json_objects):
+    dominios_positivos = []
+    dominios_negativos = []
+
+    for obj in json_objects:
+        if obj.get('failed', False):
+            dominios_negativos.append(obj)
+        else:
+            dominios_positivos.append(obj)
+
+    # Guardar en archivos JSON
+    with open('positivos.json', 'w') as f_positivos:
+        json.dump(dominios_positivos, f_positivos, indent=2)
+
+    with open('negativos.json', 'w') as f_negativos:
+        json.dump(dominios_negativos, f_negativos, indent=2)
+    return dominios_positivos
+        
 
 def save_response_to_file(response, filename):
     with open(filename, 'w') as file:
@@ -81,8 +113,14 @@ def main():
     print('subfinder runing...')
     resultado_subfinder = subfinder_exec(domain)
     print(f"Se encontraron {len(resultado_subfinder)} subdominios")
-    union.add_elements(resultado_subfinder)
-    union.print_unique_elements()
+    #union.add_elements(resultado_subfinder)
+    print('-------Resultados-------')
+    union.save_unique_elements_to_file(f'resultado_{domain}.txt')
+    resultado=httpx(union)
+    #print(resultado)
+    resultrado_filtrado=filtrar_domanis(resultado)
+    
+    #union.print_unique_elements()
     
 
 

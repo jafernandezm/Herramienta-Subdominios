@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2024-07-10T11:51:38.325015995-04:00",
+    "url": "http://dn2.lapaz.gob.bo",
+    "input": "dn2.lapaz.gob.bo",
+    "error": "context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+    "words": 0,
+    "lines": 0,
+    "status_code": 0,
+    "content_length": 0,
+    "failed": true
+  },
+  {
+    "timestamp": "2024-07-10T11:51:38.325028061-04:00",
+    "url": "http://dn1.lapaz.gob.bo",
+    "input": "dn1.lapaz.gob.bo",
+    "error": "context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
+    "words": 0,
+    "lines": 0,
+    "status_code": 0,
+    "content_length": 0,
+    "failed": true
+  }
+]
