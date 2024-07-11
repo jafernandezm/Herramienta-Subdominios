@@ -1,4 +1,4 @@
-# Proyecto de Herramienta de Análisis de Dominios
+# Proyecto de Herramienta de Análisis de Dominios para Linux
 
 Este proyecto proporciona una herramienta para analizar dominios utilizando las APIs de VirusTotal y WhiteIntel.
 

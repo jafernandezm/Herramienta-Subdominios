@@ -10,12 +10,13 @@ from implementaciones.whiteintel_exec import whiteintel_exec
 from implementaciones.unicosDominios import UniqueUnion
 
 import json
+import os
 
 def get_amass(domain):
     command = [f'amass enum -d {domain} -timeout 1 -nocolor']
     amass_result = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split()
     subdomains = [cadena for cadena in amass_result if 'gob.bo' in cadena]
-    return subdomains
+    return set(subdomains)
 
 
 def get_crt(domain):
@@ -56,9 +57,10 @@ def dns_scan(domain):
 import subprocess
 
 def httpx(union):
+    PATH_HTTPX= os.getenv('PATH_HTTPX')
     unique_elements = union.get_unique_elements()
     domains = ','.join(unique_elements)
-    command = f'~/go/bin/httpx -u {domains} -probe -json'
+    command = f'{PATH_HTTPX}/httpx -u {domains} -probe -json'
     result = subprocess.run(command, capture_output=True, text=True, shell=True)
     
     # Procesar cada línea de la salida como JSON y devolver la lista de objetos JSON
@@ -88,10 +90,10 @@ def filtrar_dominios(json_objects, domain):
             dominios_negativos.append({'url': url, 'host': host, 'status_code': status_code})
 
     # Guardar en archivos JSON
-    with open(f'{domain}_positivos.json', 'w') as f_positivos:
+    with open(f'resultados/{domain}/{domain}_positivos.json', 'w') as f_positivos:
         json.dump(dominios_positivos, f_positivos, indent=2)
 
-    with open(f'{domain}_negativos.json', 'w') as f_negativos:
+    with open(f'resultados/{domain}/{domain}_negativos.json', 'w') as f_negativos:
         json.dump(dominios_negativos, f_negativos, indent=2)
 
     return dominios_positivos, dominios_negativos
@@ -111,10 +113,10 @@ def main():
     #resultados
     union = UniqueUnion()
     print('amass runing...')
-    resultados_amass = get_amass(domain)
-    print(f"Se encontraron {len(resultados_amass)} subdominios")
+    #resultados_amass = get_amass(domain)
+    #print(f"Se encontraron {len(resultados_amass)} subdominios")
     print('-------')
-    union.add_elements(resultados_amass)
+    #union.add_elements(resultados_amass)
     print('dns_scan runing...')
     resultados_dns_scan = dns_scan(domain)
     #mostrar cantidad de subdominios encontrados
@@ -153,7 +155,7 @@ def main():
     
     print('-------Resultados-------')
 
-#    union.save_unique_elements_to_file(f'resultado_{domain}.txt')
+    union.save_unique_elements_to_file(domain,f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
     dominios_positivos,dominios_negativos=filtrar_dominios(resultado,domain)

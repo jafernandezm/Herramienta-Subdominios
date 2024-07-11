@@ -1,3 +1,4 @@
+import os
 class UniqueUnion:
     def __init__(self):
         self.unique_elements = set()
@@ -15,8 +16,21 @@ class UniqueUnion:
         for element in self.unique_elements:
             print(element)
     
-    def save_unique_elements_to_file(self, filename):
+    def save_unique_elements_to_file(self, domain, filename):
+        # Crear la carpeta "resultados" si no existe
+        resultados_dir = "resultados"
+        if not os.path.exists(resultados_dir):
+            os.makedirs(resultados_dir)
+
+        # Crear una subcarpeta con el nombre del dominio
+        domain_dir = os.path.join(resultados_dir, domain)
+        if not os.path.exists(domain_dir):
+            os.makedirs(domain_dir)
+
+        # Construir la ruta completa del archivo
+        file_path = os.path.join(domain_dir, filename)
+
         # Guardar los elementos únicos en un archivo de texto
-        with open(filename, 'w') as file:
+        with open(file_path, 'w') as file:
             for element in self.unique_elements:
                 file.write(f"{element}\n")
