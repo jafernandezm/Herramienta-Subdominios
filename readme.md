@@ -3,6 +3,8 @@
 
 ```
 pip install -r requirements.txt
+chmod +x instalar.sh 
+./instalar.sh 
 ```
 
 
