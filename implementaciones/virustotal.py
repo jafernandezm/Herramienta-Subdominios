@@ -8,6 +8,9 @@ load_dotenv()
 VIRUSTOTAL_API_KEY = os.getenv('VIRUSTOTAL_API_KEY')
 
 def get_subdomains_VirusTotal(domain):
+    if not VIRUSTOTAL_API_KEY:
+        print("No se ha encontrado la variable de entorno VIRUSTOTAL_API_KEY")
+        return []
     url = f"https://www.virustotal.com/vtapi/v2/domain/report?apikey={VIRUSTOTAL_API_KEY}&domain={domain}"
     try:
         response = requests.get(url)

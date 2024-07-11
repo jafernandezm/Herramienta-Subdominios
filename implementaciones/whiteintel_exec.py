@@ -8,6 +8,9 @@ import json
 BEARER_WHITEINTEL=os.getenv('BEARER_WHITEINTEL')
 
 def whiteintel_exec(domain):
+    if not BEARER_WHITEINTEL:
+        print("No se ha encontrado la variable de entorno BEARER_WHITEINTEL")
+        return []
     # por post
     url = f"https://whiteintel.io/url_handler.php"
     headers = {
