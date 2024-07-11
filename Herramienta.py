@@ -57,10 +57,13 @@ def dns_scan(domain):
 import subprocess
 
 def httpx(union):
-    PATH_HTTPX= os.getenv('PATH_HTTPX')
+    if os.getenv('PATH_HTTPX'):
+        PATH_HTTPX = os.getenv('PATH_HTTPX')
+    else:
+        PATH_HTTPX = '~/go/bin/httpx'
     unique_elements = union.get_unique_elements()
     domains = ','.join(unique_elements)
-    command = f'{PATH_HTTPX}/httpx -u {domains} -probe -json'
+    command = f'{PATH_HTTPX} -u {domains} -probe -json'
     result = subprocess.run(command, capture_output=True, text=True, shell=True)
     
     # Procesar cada línea de la salida como JSON y devolver la lista de objetos JSON
@@ -113,48 +116,46 @@ def main():
     #resultados
     union = UniqueUnion()
     print('amass runing...')
-    #resultados_amass = get_amass(domain)
-    #print(f"Se encontraron {len(resultados_amass)} subdominios")
+    resultados_amass = get_amass(domain)
+    union.add_elements(resultados_amass)
+    print(f"Se encontraron {len(resultados_amass)} subdominios")
     print('-------')
-    #union.add_elements(resultados_amass)
+    
     print('dns_scan runing...')
     resultados_dns_scan = dns_scan(domain)
+    union.add_elements(resultados_dns_scan)
     #mostrar cantidad de subdominios encontrados
     print(f"Se encontraron {len(resultados_dns_scan)} subdominios")
-    union.add_elements(resultados_dns_scan)
+    
     print('-------')
     #print(resultados_dns_scan)
     print('virusTotal runing...')
     resultado_virtual_total = get_subdomains_VirusTotal(domain)
-    print(f"Se encontraron {len(resultado_virtual_total)} subdominios")
     union.add_elements(resultado_virtual_total)
+    print(f"Se encontraron {len(resultado_virtual_total)} subdominios")
     print('-------')
     #print('csrt runing...')
     #subdomains = set(resultados_dns_scan).union(resultado_virtual_total)
     print('subfinder runing...')
     resultado_subfinder = subfinder_exec(domain)
-    print(f"Se encontraron {len(resultado_subfinder)} subdominios")
     union.add_elements(resultado_subfinder)
+    print(f"Se encontraron {len(resultado_subfinder)} subdominios")
     print('-------')
     #sublist3r_exe(domain)
     print('sublist3r runing...')
     resultado_sublist3r_exe = sublist3r_exe(domain)
-    print(f"Se encontraron {len(resultado_sublist3r_exe)} subdominios")
     union.add_elements(resultado_sublist3r_exe)
-
+    print(f"Se encontraron {len(resultado_sublist3r_exe)} subdominios")
     print('urlscan runing...')
     resultado_urlscan = urlscan_exec(domain)
-    print(f"Se encontraron {len(resultado_urlscan)} subdominios")
     union.add_elements(resultado_urlscan)
-    
+    print(f"Se encontraron {len(resultado_urlscan)} subdominios")
     print('whiteintel runing...')
     resultado_whiteintel = whiteintel_exec(domain)
-    print(f"Se encontraron {len(resultado_whiteintel)} subdominios")
     union.add_elements(resultado_whiteintel)
+    print(f"Se encontraron {len(resultado_whiteintel)} subdominios")
     print('---------------------------------')
-    
     print('-------Resultados-------')
-
     union.save_unique_elements_to_file(domain,f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
