@@ -1,13 +1,48 @@
 [
   {
+    "url": "https://gabo.minsalud.gob.bo",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://autorizacion.minsalud.gob.bo",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://estadisticas.minsalud.gob.bo",
+    "host": "200.105.138.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo",
+    "host": "186.121.241.89",
+    "status_code": 302
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo",
+    "host": "186.121.243.187",
+    "status_code": 302
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
     "url": "https://desastres.minsalud.gob.bo",
     "host": "190.181.13.158",
     "status_code": 302
   },
   {
-    "url": "https://tconsult.ts.minsalud.gob.bo",
-    "host": "186.121.241.84",
-    "status_code": 302
+    "url": "https://consolidacion.minsalud.gob.bo",
+    "host": "190.129.163.84",
+    "status_code": 200
   },
   {
     "url": "https://gitlab.minsalud.gob.bo",
@@ -15,28 +50,88 @@
     "status_code": 302
   },
   {
-    "url": "https://sigein.minsalud.gob.bo",
-    "host": "200.87.145.165",
+    "url": "https://fortimail.minsalud.gob.bo",
+    "host": "200.87.134.37",
     "status_code": 200
   },
   {
-    "url": "https://microcenso-pai.minsalud.gob.bo",
-    "host": "200.87.145.167",
-    "status_code": 200
-  },
-  {
-    "url": "https://pai.minsalud.gob.bo",
+    "url": "https://encuesta.minsalud.gob.bo",
     "host": "186.121.204.91",
-    "status_code": 301
-  },
-  {
-    "url": "https://sus.minsalud.gob.bo",
-    "host": "190.181.13.154",
     "status_code": 200
   },
   {
-    "url": "https://profesionalesensalud.minsalud.gob.bo",
+    "url": "https://consolidacion.minsalud.gob.bo/",
+    "host": "190.129.163.84",
+    "status_code": 200
+  },
+  {
+    "url": "https://cotizables.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
     "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/index.php",
+    "host": "186.121.241.89",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/forgot_password.php",
+    "host": "186.121.241.89",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Inicio",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/planillas/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://aulapai.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/",
+    "host": "190.129.72.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/ingresosistema",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/index.php",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://calificacionpcd.agetic.gob.bo",
+    "host": "186.121.242.37",
     "status_code": 200
   },
   {
@@ -45,7 +140,572 @@
     "status_code": 200
   },
   {
-    "url": "https://virtual-safci.minsalud.gob.bo",
+    "url": "https://simone.minsalud.gob.bo/sishivos/",
+    "host": "186.121.247.58",
+    "status_code": 200
+  },
+  {
+    "url": "https://formularios.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/control.php",
+    "host": "190.129.72.82",
+    "status_code": 302
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo/",
+    "host": "190.129.163.83",
+    "status_code": 303
+  },
+  {
+    "url": "https://sirea.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo/",
+    "host": "200.87.145.165",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/index.php",
+    "host": "190.129.72.82",
+    "status_code": 200
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/",
+    "host": "186.121.243.187",
+    "status_code": 302
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo/assets/app/index.html",
+    "host": "190.129.163.83",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo",
+    "host": "186.121.243.187",
+    "status_code": 302
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/",
+    "host": "190.129.72.82",
+    "status_code": 200
+  },
+  {
+    "url": "https://autorizacion.minsalud.gob.bo/ingresosistema",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/",
+    "host": "190.129.163.84",
+    "status_code": 200
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo/login",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo/restorepasswordfirst",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/",
+    "host": "190.181.13.154",
+    "status_code": 200
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/signup.php",
+    "host": "186.121.241.89",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo",
+    "host": "190.181.13.154",
+    "status_code": 200
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/index.php",
+    "host": "186.121.241.89",
+    "status_code": 200
+  },
+  {
+    "url": "https://calificacionpcd.minsalud.gob.bo",
+    "host": "186.121.242.37",
+    "status_code": 200
+  },
+  {
+    "url": "https://encuesta.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo",
+    "host": "190.129.72.83",
+    "status_code": 302
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/",
+    "host": "190.129.72.83",
+    "status_code": 302
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/login1.php",
+    "host": "190.129.72.83",
+    "status_code": 302
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/user/editadvanced.php",
+    "host": "186.121.243.187",
+    "status_code": 303
+  },
+  {
+    "url": "https://oretekove.minsalud.gob.bo/",
+    "host": "181.188.148.19",
+    "status_code": 200
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/login.php",
+    "host": "190.129.72.83",
+    "status_code": 200
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/login/",
+    "host": "186.121.243.187",
+    "status_code": 200
+  },
+  {
+    "url": "https://pagosens.minsalud.gob.bo/",
+    "host": "186.121.243.188",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/BuscarPersonasVacunadas",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Inicio",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/FactorPerdida",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/login/index.php",
+    "host": "186.121.243.187",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/home",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/signup.php",
+    "host": "186.121.241.89",
+    "status_code": 200
+  },
+  {
+    "url": "https://nastelesalud.minsalud.gob.bo/driveTS/d/s/vJCtSdohTvHrEyjGVe90PSIfbzCW7csU/iYswwAehBveiuM5MFCJLMgrmhg8Dz3Qy-dbHghds7xAo",
+    "host": "186.121.241.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/PoblacionProgramacion",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/controlador_registro/cambio_de_clave",
+    "host": "200.87.134.34",
+    "status_code": 302
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/Grabar_Usuarios.php",
+    "host": "190.129.72.92",
+    "status_code": 302
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/ReimpresionCovid",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/Enlace_CAN.php",
+    "host": "190.129.72.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/ValidacionActoVacunacion",
+    "host": "190.129.163.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/Guardar_CambiosUsr.php",
+    "host": "190.129.72.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/login",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/frmGuardar_RegUsr.php",
+    "host": "190.129.72.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo/",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/paginas/Registro/Wb_Registro.aspx",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/Default.aspx",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo",
+    "host": "186.121.204.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/inicio/login",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/ingresosistema",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/inicio/",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/index.php/home",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://sirea.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/aula/login/index.php",
+    "host": "190.129.72.83",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/modificarcontrasenia",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/control.php",
+    "host": "190.129.72.82",
+    "status_code": 302
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo",
+    "host": "190.129.72.82",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/",
+    "host": "186.121.243.187",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/index.php",
+    "host": "190.129.72.82",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/",
+    "host": "190.129.72.82",
+    "status_code": 200
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo/forms/FormSelect.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo/",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/login",
+    "host": "190.181.13.154",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo",
+    "host": "190.181.13.154",
+    "status_code": 200
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/course/index.php",
+    "host": "186.121.243.187",
+    "status_code": 200
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo/",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo/login.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/",
+    "host": "190.181.13.154",
+    "status_code": 200
+  },
+  {
+    "url": "https://sispoa2.minsalud.gob.bo/fmi/webd",
+    "host": "181.115.203.110",
+    "status_code": 200
+  },
+  {
+    "url": "https://minsalud.gob.bo/",
+    "host": "186.121.204.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo/index.php",
+    "host": "200.105.173.27",
+    "status_code": 200
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo/Enlace_LoginInicio.php",
+    "host": "200.105.173.27",
+    "status_code": 302
+  },
+  {
+    "url": "https://microcenso-pai.minsalud.gob.bo",
+    "host": "200.87.145.167",
+    "status_code": 200
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo/medi-safci/validacion.php",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://ipi1.agetic.gob.bo",
+    "host": "200.87.125.227",
+    "status_code": 200
+  },
+  {
+    "url": "https://macroac_bono.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo",
+    "host": "190.129.72.83",
+    "status_code": 302
+  },
+  {
+    "url": "https://oretekove.minsalud.gob.bo",
+    "host": "181.188.148.19",
+    "status_code": 200
+  },
+  {
+    "url": "https://pagosens.minsalud.gob.bo",
+    "host": "186.121.243.188",
+    "status_code": 200
+  },
+  {
+    "url": "https://qmara.minsalud.gob.bo/",
+    "host": "172.30.0.11",
+    "status_code": 200
+  },
+  {
+    "url": "https://qmara.minsalud.gob.bo",
+    "host": "172.30.0.11",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo/login",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://sismet.minsalud.gob.bo/login",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://pai.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 301
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo",
+    "host": "200.105.173.27",
+    "status_code": 200
+  },
+  {
+    "url": "https://pai2.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo/MySettings.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://profesionalesensalud.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo",
+    "host": "200.87.145.173",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo",
+    "host": "200.87.134.34",
+    "status_code": 200
+  },
+  {
+    "url": "https://registrobecas.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo",
+    "host": "200.87.145.174",
+    "status_code": 200
+  },
+  {
+    "url": "https://reportes-rnve.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200
+  },
+  {
+    "url": "https://vdit.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo",
     "host": "186.121.204.91",
     "status_code": 200
   },
@@ -55,33 +715,38 @@
     "status_code": 200
   },
   {
-    "url": "https://mail.minsalud.gob.bo",
+    "url": "https://simone.minsalud.gob.bo",
+    "host": "186.121.247.58",
+    "status_code": 200
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo/",
     "host": "200.87.134.37",
     "status_code": 200
   },
   {
-    "url": "https://oretekove.minsalud.gob.bo",
-    "host": "181.188.148.19",
+    "url": "http://sip-plus.minsalud.gob.bo",
+    "host": "190.129.163.83",
+    "status_code": 303
+  },
+  {
+    "url": "https://registro-renal.minsalud.gob.bo",
+    "host": "200.105.138.98",
     "status_code": 200
   },
   {
-    "url": "https://calificacionpcd.minsalud.gob.bo",
-    "host": "200.87.125.227",
+    "url": "https://sirea.minsalud.gob.bo",
+    "host": "186.121.204.91",
     "status_code": 200
   },
   {
-    "url": "https://www.minsalud.gob.bo",
+    "url": "https://saludoral.minsalud.gob.bo",
     "host": "186.121.204.92",
     "status_code": 200
   },
   {
-    "url": "https://calificacionpcd.agetic.gob.bo",
-    "host": "190.14.106.3",
-    "status_code": 200
-  },
-  {
-    "url": "https://qmara.minsalud.gob.bo",
-    "host": "190.14.106.4",
+    "url": "https://www.minsalud.gob.bo/",
+    "host": "186.121.204.92",
     "status_code": 200
   },
   {
@@ -90,18 +755,168 @@
     "status_code": 200
   },
   {
-    "url": "https://registro-renal.minsalud.gob.bo",
+    "url": "https://siccaf.minsalud.gob.bo",
     "host": "200.105.138.98",
     "status_code": 200
   },
   {
-    "url": "https://consolidador.minsalud.gob.bo",
-    "host": "186.121.204.94",
+    "url": "https://sismet.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/paginas/Registro/Wb_Registro.aspx",
+    "host": "190.129.163.84",
+    "status_code": 200
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/paginas/Registro/Wb_Registro.aspx",
+    "host": "190.129.163.84",
+    "status_code": 200
+  },
+  {
+    "url": "https://reservatuconsulta.sedescz.net/_fichaje/administracion/index.php",
+    "host": "162.55.131.89",
+    "status_code": 200
+  },
+  {
+    "url": "https://siprunpcd.minsalud.gob.bo",
+    "host": "190.129.72.94",
+    "status_code": 200
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo",
+    "host": "190.129.72.82",
+    "status_code": 200
+  },
+  {
+    "url": "https://reportes-siahv.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo",
+    "host": "200.87.145.165",
+    "status_code": 200
+  },
+  {
+    "url": "https://registro-donante.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo",
+    "host": "190.181.13.154",
+    "status_code": 200
+  },
+  {
+    "url": "https://svr-mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://sus-poaes.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo",
+    "host": "200.105.173.27",
     "status_code": 200
   },
   {
     "url": "https://snis.minsalud.gob.bo",
     "host": "200.105.138.98",
     "status_code": 200
+  },
+  {
+    "url": "https://vdit.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://siahv2test.minsalud.gob.bo/ingresosistema",
+    "host": "200.87.145.166",
+    "status_code": 200
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo/index.php",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo/login.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo/medi-safci/login.php",
+    "host": "186.121.204.91",
+    "status_code": 200
+  },
+  {
+    "url": "https://ts.minsalud.gob.bo",
+    "host": "186.121.241.86",
+    "status_code": 200
+  },
+  {
+    "url": "https://www.minsalud.gob.bo",
+    "host": "186.121.204.92",
+    "status_code": 200
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo/",
+    "host": "200.105.173.27",
+    "status_code": 200
+  },
+  {
+    "url": "https://simone10.minsalud.gob.bo",
+    "host": "186.121.247.59",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/Default.aspx",
+    "host": "190.129.163.84",
+    "status_code": 200
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/Default.aspx",
+    "host": "190.129.163.84",
+    "status_code": 200
+  },
+  {
+    "url": "https://ns2.minsalud.gob.bo",
+    "host": "190.129.72.93",
+    "status_code": 200
+  },
+  {
+    "url": "https://mailpro.minsalud.gob.bo",
+    "host": "190.129.72.93",
+    "status_code": 200
+  },
+  {
+    "url": "http://vportal.ts.minsalud.gob.bo",
+    "host": "186.121.241.85",
+    "status_code": 302
   }
 ]

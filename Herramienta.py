@@ -5,7 +5,10 @@ import requests
 from implementaciones.sublister_exe import sublist3r_exe
 from implementaciones.virustotal import get_subdomains_VirusTotal
 from implementaciones.subfinder import subfinder_exec
+from implementaciones.urlscan import urlscan_exec
+from implementaciones.whiteintel_exec import whiteintel_exec
 from implementaciones.unicosDominios import UniqueUnion
+
 import json
 
 def get_amass(domain):
@@ -136,7 +139,20 @@ def main():
     resultado_sublist3r_exe = sublist3r_exe(domain)
     print(f"Se encontraron {len(resultado_sublist3r_exe)} subdominios")
     union.add_elements(resultado_sublist3r_exe)
+
+    print('urlscan runing...')
+    resultado_urlscan = urlscan_exec(domain)
+    print(f"Se encontraron {len(resultado_urlscan)} subdominios")
+    union.add_elements(resultado_urlscan)
+    
+    print('whiteintel runing...')
+    resultado_whiteintel = whiteintel_exec(domain)
+    print(f"Se encontraron {len(resultado_whiteintel)} subdominios")
+    union.add_elements(resultado_whiteintel)
+    print('---------------------------------')
+    
     print('-------Resultados-------')
+
     union.save_unique_elements_to_file(f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
