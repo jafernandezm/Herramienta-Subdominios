@@ -153,7 +153,7 @@ def main():
     
     print('-------Resultados-------')
 
-    union.save_unique_elements_to_file(f'resultado_{domain}.txt')
+#    union.save_unique_elements_to_file(f'resultado_{domain}.txt')
     resultado=httpx(union)
     #print(resultado)
     dominios_positivos,dominios_negativos=filtrar_dominios(resultado,domain)
