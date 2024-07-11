@@ -13,46 +13,50 @@ import json
 import os
 
 def get_amass(domain):
-    command = [f'amass enum -d {domain} -timeout 1 -nocolor']
-    amass_result = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split()
-    subdomains = [cadena for cadena in amass_result if 'gob.bo' in cadena]
-    return set(subdomains)
+    try:
+        command = [f'amass enum -d {domain} -timeout 1 -nocolor']
+        amass_result = subprocess.run(command, shell=True, capture_output=True, text=True, check=True).stdout.split()
+        subdomains = [cadena for cadena in amass_result if 'gob.bo' in cadena]
+        return subdomains
+    except subprocess.CalledProcessError as e:
+        print(f"Error ejecutando amass: {e}")
+        return []
 
 
 def get_crt(domain):
-    subdomains=[]
-    response = requests.get('https://crt.sh/?q=%s&output=json' % domain)
-    for i in response.json():
-        subdomains.append(i['common_name'])
-        subdomains.append(i['name_value'])
-    return subdomains
+    try:
+        subdomains = []
+        response = requests.get(f'https://crt.sh/?q={domain}&output=json')
+        response.raise_for_status()
+        for i in response.json():
+            subdomains.append(i['common_name'])
+            subdomains.append(i['name_value'])
+        return subdomains
+    except requests.RequestException as e:
+        print(f"Error obteniendo subdominios de crt.sh: {e}")
+        return []
 
 def run_dmitry(domain):
-    command = ['dmitry', '-s', 'http://{}'.format(domain)]
-    result = subprocess.run(command, capture_output=True, text=True)
-    #print(result)
-    return result.stdout
+    try:
+        command = ['dmitry', '-s', f'http://{domain}']
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
+        return result.stdout
+    except subprocess.CalledProcessError as e:
+        print(f"Error ejecutando dmitry: {e}")
+        return ""
 
 def dns_scan(domain):
-    # Asegúrate de que la ruta al archivo de lista de palabras sea correcta
-    wordlist_path = './dnscan/subdomains-10000.txt'
-    
-    # Estructura correcta de la lista command, separando cada argumento
-    command = ['dnscan/dnscan.py', '-d', domain, '-w', wordlist_path, '-t', '50']
-    
-    result = subprocess.run(command, capture_output=True, text=True)
-    if result.returncode == 0:
+    try:
+        wordlist_path = './dnscan/subdomains-10000.txt'
+        command = ['dnscan/dnscan.py', '-d', domain, '-w', wordlist_path, '-t', '50']
+        result = subprocess.run(command, capture_output=True, text=True, check=True)
         output = result.stdout
-        # Filtrar dominios usando expresiones regulares
         records = re.findall(r'^([\w.-]+)\. \d+ IN (CNAME|A) (.+)', output, re.MULTILINE)
-        
-        # Almacenar resultados en una lista de subdominios
         subdomains = [record[0] for record in records]
-        
         return subdomains
-    else:
-        print(f"Error: {result.stderr}")
-        return {}
+    except subprocess.CalledProcessError as e:
+        print(f"Error ejecutando dnscan: {e}")
+        return []
 
 import subprocess
 
@@ -61,36 +65,39 @@ def httpx(union):
         PATH_HTTPX = os.getenv('PATH_HTTPX')
     else:
         PATH_HTTPX = '~/go/bin/httpx'
-    unique_elements = union.get_unique_elements()
-    domains = ','.join(unique_elements)
-    command = f'{PATH_HTTPX} -u {domains} -probe -json'
-    result = subprocess.run(command, capture_output=True, text=True, shell=True)
-    
-    # Procesar cada línea de la salida como JSON y devolver la lista de objetos JSON
-    json_objects = []
-    for line in result.stdout.splitlines():
-        try:
-            json_obj = json.loads(line)
-            json_objects.append(json_obj)
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON: {e}")
-    
-    return json_objects
+    try:
+        unique_elements = union.get_unique_elements()
+        domains = ','.join(unique_elements)
+        command = f'~/go/bin/httpx -u {domains} -probe -json'
+        result = subprocess.run(command, capture_output=True, text=True, shell=True, check=True)
+        json_objects = []
+        for line in result.stdout.splitlines():
+            try:
+                json_obj = json.loads(line)
+                json_objects.append(json_obj)
+            except json.JSONDecodeError as e:
+                print(f"Error decoding JSON: {e}")
+        return json_objects
+    except subprocess.CalledProcessError as e:
+        print(f"Error ejecutando httpx: {e}")
+        return []
+
 
 def filtrar_dominios(json_objects, domain):
     dominios_positivos = []
     dominios_negativos = []
 
     for obj in json_objects:
-        status_code = obj.get('status_code')
+        #status_code = obj.get('status_code')
         url = obj.get('url', None)
         host = obj.get('host', None)
+        tech = obj.get('tech', None)
         status_code = obj.get('status_code', None)
         # Filtrar dominios por código de estado 200 y 301
         if (status_code == 200 or status_code == 301 or status_code == 302 or status_code == 303 or status_code == 304 or status_code == 307 or status_code == 308):
-            dominios_positivos.append({'url': url, 'host': host, 'status_code': status_code})
+            dominios_positivos.append({'url': url, 'host': host, 'status_code': status_code, 'tech': tech})
         else:
-            dominios_negativos.append({'url': url, 'host': host, 'status_code': status_code})
+            dominios_negativos.append({'url': url, 'host': host, 'status_code': status_code, 'tech': tech})
 
     # Guardar en archivos JSON
     with open(f'resultados/{domain}/{domain}_positivos.json', 'w') as f_positivos:

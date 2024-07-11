@@ -1,0 +1,1612 @@
+[
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/index.php",
+    "host": "186.121.241.89",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://desastres.minsalud.gob.bo",
+    "host": "190.181.13.158",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo",
+    "host": "186.121.241.89",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian"
+    ]
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/signup.php",
+    "host": "186.121.241.89",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery",
+      "reCAPTCHA"
+    ]
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/forgot_password.php",
+    "host": "186.121.241.89",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://fortimail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200,
+    "tech": [
+      "Java",
+      "Nginx",
+      "Zimbra"
+    ]
+  },
+  {
+    "url": "https://cotizables.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://estadisticas.minsalud.gob.bo",
+    "host": "200.105.138.92",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://gitlab.minsalud.gob.bo",
+    "host": "200.87.145.164",
+    "status_code": 302,
+    "tech": [
+      "HSTS",
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Java",
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo",
+    "host": "186.121.204.94",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://aulapai.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://formularios.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Nginx",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://calificacionpcd.minsalud.gob.bo",
+    "host": "200.87.125.227",
+    "status_code": 200,
+    "tech": [
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://calificacionpcd.agetic.gob.bo",
+    "host": "190.14.106.3",
+    "status_code": 200,
+    "tech": [
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Java",
+      "Nginx:1.18.0",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Java",
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Java",
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/",
+    "host": "186.121.204.94",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/planillas/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Java",
+      "Nginx:1.18.0",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Inicio",
+    "host": "190.129.163.86",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Chart.js",
+      "Laravel",
+      "PHP",
+      "Popper",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/index.php",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Chart.js",
+      "Laravel",
+      "PHP",
+      "Popper",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo/",
+    "host": "200.87.145.165",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian"
+    ]
+  },
+  {
+    "url": "https://simone.minsalud.gob.bo",
+    "host": "186.121.247.58",
+    "status_code": 200,
+    "tech": [
+      "IIS:10.0",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/",
+    "host": "190.129.72.92",
+    "status_code": 200,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://simone.minsalud.gob.bo/sishivos/",
+    "host": "186.121.247.58",
+    "status_code": 200,
+    "tech": [
+      "IIS:10.0",
+      "Microsoft ASP.NET:2.0.50727",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo/",
+    "host": "190.129.163.83",
+    "status_code": 303,
+    "tech": null
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/index.php",
+    "host": "186.121.241.89",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://aula.minsalud.gob.bo/aula/login/signup.php",
+    "host": "186.121.241.89",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery",
+      "reCAPTCHA"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/",
+    "host": "190.181.13.154",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Laravel",
+      "Lightbox",
+      "Mixitup",
+      "OWL Carousel",
+      "PHP",
+      "SweetAlert2:8",
+      "jQuery",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo",
+    "host": "190.181.13.154",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Laravel",
+      "Lightbox",
+      "Mixitup",
+      "OWL Carousel",
+      "PHP",
+      "SweetAlert2:8",
+      "jQuery",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo/assets/app/index.html",
+    "host": "190.129.163.83",
+    "status_code": 200,
+    "tech": null
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/",
+    "host": "186.121.204.94",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/Default.aspx",
+    "host": "186.121.204.94",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Java",
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://sirea.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.38",
+      "Bootstrap",
+      "Debian",
+      "Font Awesome",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://encuesta.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo/login",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo",
+    "host": "186.121.204.94",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://consolidador.minsalud.gob.bo/paginas/Registro/Wb_Registro.aspx",
+    "host": "186.121.204.94",
+    "status_code": 200,
+    "tech": [
+      "Google Hosted Libraries",
+      "IIS:8.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://gabo.minsalud.gob.bo/restorepasswordfirst",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo/",
+    "host": "200.87.134.37",
+    "status_code": 200,
+    "tech": [
+      "Java",
+      "Nginx",
+      "Zimbra"
+    ]
+  },
+  {
+    "url": "https://nastelesalud.minsalud.gob.bo/driveTS/d/s/vJCtSdohTvHrEyjGVe90PSIfbzCW7csU/iYswwAehBveiuM5MFCJLMgrmhg8Dz3Qy-dbHghds7xAo",
+    "host": "186.121.241.92",
+    "status_code": 200,
+    "tech": [
+      "ExtJS",
+      "Synology DiskStation",
+      "Vue.js"
+    ]
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/",
+    "host": "190.129.72.83",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/login.php",
+    "host": "190.129.72.83",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap:4.5.0",
+      "Cloudflare",
+      "PHP",
+      "Popper",
+      "cdnjs",
+      "jQuery",
+      "jQuery CDN",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "https://qmara.minsalud.gob.bo/",
+    "host": "190.14.106.4",
+    "status_code": 200,
+    "tech": [
+      "AngularJS",
+      "HSTS",
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://reservatuconsulta.sedescz.net/_fichaje/administracion/index.php",
+    "host": "162.55.131.89",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap:4.0.0",
+      "HTTP/3",
+      "LottieFiles",
+      "PHP:7.4.33",
+      "Popper",
+      "Unpkg",
+      "jQuery",
+      "jQuery CDN",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "https://minsalud.gob.bo/",
+    "host": "186.121.204.92",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Joomla",
+      "Nginx",
+      "PHP",
+      "jQuery",
+      "metisMenu:1.4.0"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/BuscarPersonasVacunadas",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo",
+    "host": "190.129.72.83",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/FactorPerdida",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Covid",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://oretekove.minsalud.gob.bo/",
+    "host": "181.188.148.19",
+    "status_code": 200,
+    "tech": [
+      "AngularJS",
+      "Nginx:1.10.3"
+    ]
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/aula/login/index.php",
+    "host": "190.129.72.83",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Moodle",
+      "PHP",
+      "RequireJS",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo/login1.php",
+    "host": "190.129.72.83",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200,
+    "tech": [
+      "Java",
+      "Nginx",
+      "Zimbra"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Persona",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Rectificacion",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Inicio",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Ingreso",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Seguimiento",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/ValidacionActoVacunacion",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/RptVacunasDiluyente",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/Salir",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/ReimpresionCovid",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/PoblacionProgramacion",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Chart.js",
+      "Laravel",
+      "PHP",
+      "Popper",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Chart.js",
+      "Laravel",
+      "PHP",
+      "Popper",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/home",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/index.php/home",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo/login",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Chart.js",
+      "Laravel",
+      "PHP",
+      "Popper",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/Enlace_CAN.php",
+    "host": "190.129.72.92",
+    "status_code": 200,
+    "tech": [
+      "IIS:7.5",
+      "PHP:5.2.5",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "CodeIgniter",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/Grabar_Usuarios.php",
+    "host": "190.129.72.92",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "PHP:5.2.5",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo/login",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/Guardar_CambiosUsr.php",
+    "host": "190.129.72.92",
+    "status_code": 200,
+    "tech": [
+      "IIS:7.5",
+      "PHP:5.2.5",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo/Pages/frmGuardar_RegUsr.php",
+    "host": "190.129.72.92",
+    "status_code": 200,
+    "tech": [
+      "IIS:7.5",
+      "PHP:5.2.5",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo/",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/controlador_registro/cambio_de_clave",
+    "host": "200.87.134.34",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "CodeIgniter",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/inicio/",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "CodeIgniter",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/siahv/inicio/login",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "CodeIgniter",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo/",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://sirea.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.38",
+      "Bootstrap",
+      "Debian",
+      "Font Awesome",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo",
+    "host": "190.181.13.154",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Laravel",
+      "Lightbox",
+      "Mixitup",
+      "OWL Carousel",
+      "PHP",
+      "SweetAlert2:8",
+      "jQuery",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo/index.php",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/login",
+    "host": "190.181.13.154",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Laravel",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/",
+    "host": "190.181.13.154",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Laravel",
+      "Lightbox",
+      "Mixitup",
+      "OWL Carousel",
+      "PHP",
+      "SweetAlert2:8",
+      "jQuery",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "https://sismet.minsalud.gob.bo/login",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo/login.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo/",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo/forms/FormSelect.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo/",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo/login.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap:3",
+      "FancyBox",
+      "FlexSlider",
+      "Modernizr",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo/medi-safci/login.php",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo/MySettings.aspx",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo/medi-safci/validacion.php",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://vdit.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200,
+    "tech": [
+      "Java",
+      "Nginx",
+      "Zimbra"
+    ]
+  },
+  {
+    "url": "https://www.minsalud.gob.bo/",
+    "host": "186.121.204.92",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Joomla",
+      "Nginx",
+      "PHP",
+      "jQuery",
+      "metisMenu:1.4.0"
+    ]
+  },
+  {
+    "url": "https://minsalud.gob.bo",
+    "host": "186.121.204.92",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Joomla",
+      "Nginx",
+      "PHP",
+      "jQuery",
+      "metisMenu:1.4.0"
+    ]
+  },
+  {
+    "url": "https://microcenso-pai.minsalud.gob.bo",
+    "host": "200.87.145.167",
+    "status_code": 200,
+    "tech": [
+      "HSTS",
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://macroac_bono.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Java",
+      "Nginx:1.18.0",
+      "Ubuntu"
+    ]
+  },
+  {
+    "url": "https://programasafci.minsalud.gob.bo",
+    "host": "190.129.72.83",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://ipi1.agetic.gob.bo",
+    "host": "186.121.242.37",
+    "status_code": 200,
+    "tech": [
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://oretekove.minsalud.gob.bo",
+    "host": "181.188.148.19",
+    "status_code": 200,
+    "tech": [
+      "AngularJS",
+      "Nginx:1.10.3"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo",
+    "host": "186.121.204.93",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://qmara.minsalud.gob.bo",
+    "host": "190.14.106.4",
+    "status_code": 200,
+    "tech": [
+      "AngularJS",
+      "HSTS",
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://pai.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 301,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://rues.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Chart.js",
+      "Laravel",
+      "PHP",
+      "Popper",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://reportes-rnve.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://pai2.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://profesionalesensalud.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://rues3.minsalud.gob.bo",
+    "host": "200.87.145.173",
+    "status_code": 200,
+    "tech": [
+      "Nginx:1.22.1"
+    ]
+  },
+  {
+    "url": "https://reportes-siahv.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://registro-renal.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 200,
+    "tech": [
+      "Alpine.js",
+      "Apache HTTP Server",
+      "Unpkg",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://siahv.minsalud.gob.bo",
+    "host": "200.87.134.34",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://saludoral.minsalud.gob.bo",
+    "host": "186.121.204.92",
+    "status_code": 200,
+    "tech": [
+      "Joomla",
+      "Nginx",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://registro-donante.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "OWL Carousel",
+      "YouTube",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://seguros.minsalud.gob.bo",
+    "host": "190.129.72.92",
+    "status_code": 200,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo",
+    "host": "200.87.145.165",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian"
+    ]
+  },
+  {
+    "url": "http://sip-plus.minsalud.gob.bo",
+    "host": "190.129.163.83",
+    "status_code": 303,
+    "tech": null
+  },
+  {
+    "url": "https://simone.minsalud.gob.bo",
+    "host": "186.121.247.58",
+    "status_code": 200,
+    "tech": [
+      "IIS:10.0",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://sirea.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.38",
+      "Bootstrap",
+      "Debian",
+      "Font Awesome",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sismet.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sirepro.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://siccaf.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 200,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:2.0.50727",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://simone10.minsalud.gob.bo",
+    "host": "186.121.247.59",
+    "status_code": 200,
+    "tech": [
+      "IIS:8.5",
+      "Microsoft ASP.NET",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://snis.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Joomla",
+      "MooTools",
+      "PHP",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://tconsult.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://tconsult.ts.minsalud.gob.bo",
+    "host": "186.121.241.84",
+    "status_code": 302,
+    "tech": [
+      "IIS:7.5",
+      "Microsoft ASP.NET:4.0.30319",
+      "Windows Server"
+    ]
+  },
+  {
+    "url": "https://sus-poaes.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Bootstrap",
+      "Debian",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo",
+    "host": "190.181.13.154",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap",
+      "Laravel",
+      "Lightbox",
+      "Mixitup",
+      "OWL Carousel",
+      "PHP",
+      "SweetAlert2:8",
+      "jQuery",
+      "jsDelivr"
+    ]
+  },
+  {
+    "url": "https://virtual-safci.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "Bootstrap:3",
+      "FancyBox",
+      "FlexSlider",
+      "Modernizr",
+      "jQuery"
+    ]
+  },
+  {
+    "url": "https://svr-mail.minsalud.gob.bo",
+    "host": "200.87.134.37",
+    "status_code": 200,
+    "tech": [
+      "Java",
+      "Nginx",
+      "Zimbra"
+    ]
+  },
+  {
+    "url": "https://www.minsalud.gob.bo",
+    "host": "186.121.204.92",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Joomla",
+      "Nginx",
+      "PHP",
+      "jQuery",
+      "metisMenu:1.4.0"
+    ]
+  },
+  {
+    "url": "https://vdit.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 200,
+    "tech": [
+      "Bootstrap",
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "http://vportal.ts.minsalud.gob.bo",
+    "host": "186.121.241.85",
+    "status_code": 302,
+    "tech": [
+      "Apache HTTP Server",
+      "Java"
+    ]
+  }
+]

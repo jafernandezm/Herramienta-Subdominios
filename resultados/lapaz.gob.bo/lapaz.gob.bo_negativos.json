@@ -1,0 +1,71 @@
+[
+  {
+    "url": "https://mineria.lapaz.gob.bo",
+    "host": "172.67.145.225",
+    "status_code": 500,
+    "tech": [
+      "Cloudflare",
+      "HTTP/3"
+    ]
+  },
+  {
+    "url": "http://consulta.lapaz.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sidicon.lapaz.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://solvencias.lapaz.gob.bo/login",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://solvencias.lapaz.gob.bo/register",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://plantillas.lapaz.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://spark.lapaz.gob.bo:9090/user-create.jsp",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://spark.lapaz.gob.bo:9090/login.jsp",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://dn1.lapaz.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sdia.lapaz.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://dn2.lapaz.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  }
+]

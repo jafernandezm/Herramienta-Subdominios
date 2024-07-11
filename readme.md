@@ -1,6 +1,6 @@
-# Proyecto de Herramienta de Análisis de Dominios para Linux
+# Proyecto de Herramienta de Análisis de sub-Dominios para Linux
 
-Este proyecto proporciona una herramienta para analizar dominios utilizando las APIs de VirusTotal y WhiteIntel.
+Este proyecto proporciona una herramienta para analizar dominios utilizando las APIs de VirusTotal y WhiteIntel , httpx, amass , subfinder ,sublister, urlscan.
 
 ## Instalación
 

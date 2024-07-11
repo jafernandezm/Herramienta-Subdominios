@@ -1,0 +1,960 @@
+[
+  {
+    "url": "https://aigem.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigem.minsalud.gob.bo/aigem/postulantes",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo/aigi/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 404,
+    "tech": [
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo/aigi/j_spring_security_check",
+    "host": "186.121.204.91",
+    "status_code": 404,
+    "tech": [
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://certificacionvacunas.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigem.minsalud.gob.bo/aigem/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://cmsguest01.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://ctconan.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://ddjjrrhh.minsalud.gob.bo/planillas/j_spring_security_check",
+    "host": "186.121.204.91",
+    "status_code": 404,
+    "tech": [
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://aigem.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://movil.minsalud.gob.bo/sis/controllers/login.controller.php",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigem.minsalud.gob.bo/aigem/j_spring_security_check",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://prehv.minsalud.gob.bo/login/index.php",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://movil.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "http://campus.minsalud.gob.bo/campus/login/signup.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://deportes.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://campus.minsalud.gob.bo/campus/login/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://rues2.minsalud.gob.bo/login",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "http://control-desastres.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://epiarbovirus.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://etv-dengue.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://agemed.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo/login",
+    "host": "200.87.145.165",
+    "status_code": 404,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian"
+    ]
+  },
+  {
+    "url": "https://suis.minsalud.gob.bo/login",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo/aigi/j_spring_security_check",
+    "host": "186.121.204.91",
+    "status_code": 404,
+    "tech": [
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "https://suis.minsalud.gob.bo/",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://prehv.minsalud.gob.bo/login/signup.php",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://aigi.minsalud.gob.bo/aigi/seguridad",
+    "host": "186.121.204.91",
+    "status_code": 404,
+    "tech": [
+      "Nginx:1.18.0"
+    ]
+  },
+  {
+    "url": "http://cooperacion.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sigein.minsalud.gob.bo/ingresar",
+    "host": "200.87.145.165",
+    "status_code": 404,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian"
+    ]
+  },
+  {
+    "url": "https://sus-test.minsalud.gob.bo/ingresar",
+    "host": "200.105.138.98",
+    "status_code": 405,
+    "tech": [
+      "Apache HTTP Server:2.4.59",
+      "Debian"
+    ]
+  },
+  {
+    "url": "http://campus.minsalud.gob.bo/campus/login/forgot_password.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://geo.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://cloud.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siahvtest.minsalud.gob.bo/seguridad/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sisvin.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://movil.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://gabo-pre.minsalud.gob.bo/login",
+    "host": "200.105.138.98",
+    "status_code": 500,
+    "tech": null
+  },
+  {
+    "url": "https://gabo-pre.minsalud.gob.bo/restorepasswordfirst",
+    "host": "200.105.138.98",
+    "status_code": 500,
+    "tech": null
+  },
+  {
+    "url": "http://sisvin.minsalud.gob.bo/login",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siahvtest.minsalud.gob.bo/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siptest.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siahvtest.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://snrm2.minsalud.gob.bo:8080/aigi/seguridad",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://informaciondesastres.minsalud.gob.bo/login.php",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://rc-iva.minsalud.gob.bo/sis/controllers/login.controller.php",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/ActoVacunacion",
+    "host": "186.121.204.93",
+    "status_code": 500,
+    "tech": [
+      "Fortinet FortiGate",
+      "Laravel",
+      "Nginx",
+      "PHP"
+    ]
+  },
+  {
+    "url": "https://rnve.minsalud.gob.bo/login",
+    "host": "186.121.204.93",
+    "status_code": 405,
+    "tech": [
+      "Fortinet FortiGate",
+      "Nginx"
+    ]
+  },
+  {
+    "url": "https://rc-iva.minsalud.gob.bo/",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://rnvecapacitacion.minsalud.gob.bo/",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://rnvecapacitacion.minsalud.gob.bo/Salir",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://rnvecapacitacion.minsalud.gob.bo/login",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://autorizacion.minsalud.gob.bo/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/Default.aspx",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://consolidacion.minsalud.gob.bo/paginas/Registro/Wb_Registro.aspx",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/administrator/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/course/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/login/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/login/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aula/user/editadvanced.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://ens.minsalud.gob.bo/aulainst/login/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://siredi.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sismet.minsalud.gob.bo/ingresar",
+    "host": "186.121.204.91",
+    "status_code": 500,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://sus.minsalud.gob.bo/ingresar",
+    "host": "190.181.13.154",
+    "status_code": 405,
+    "tech": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "url": "https://siahvtest.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://pagosens.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://siahvtest.minsalud.gob.bo/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://www.covid19.podema.org/login",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://suscapacitacion.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://aigi.minsalud.gob.bo:81/aigi/seguridad",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://autorizacion.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://consolidacion.minsalud.gob.bo/Default.aspx",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://consolidacion.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://ens.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://aigi.minsalud.gob.bo:8080/aigi/seguridad",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://aigi.minsalud.gob.bo:8080/aigi/j_spring_security_check",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://consolidacion.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://aigi.minsalud.gob.bo:81/aigi/j_spring_security_check",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://aigi.minsalud.gob.bo:8080/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://www.minsalud.gob.bo/es/",
+    "host": "186.121.204.92",
+    "status_code": 404,
+    "tech": [
+      "Bootstrap",
+      "Joomla",
+      "Nginx",
+      "PHP",
+      "jQuery",
+      "metisMenu:1.4.0"
+    ]
+  },
+  {
+    "url": "https://informaciondesastres.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://ns3.minsalud.gob.bo",
+    "host": "186.121.204.94",
+    "status_code": 404,
+    "tech": [
+      "Microsoft HTTPAPI:2.0"
+    ]
+  },
+  {
+    "url": "https://prehv.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "http://consolidacion.minsalud.gob.bo/paginas/Registro/Wb_Registro.aspx",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://rnvecapacitacion.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://www.sicovid19.polifoodbolivia.com/login",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://reportes-rues.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://reporte-sus.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "http://siahv2.minsalud.gob.bo/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sicap.minsalud.gob.bo",
+    "host": "186.121.204.91",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://sicop.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://siahv2.minsalud.gob.bo/modificarcontrasenia",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://ns1.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://motomendez.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://softcom.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://softcom.minsalud.gob.bo/control.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://softcom.minsalud.gob.bo/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://siahv2test.minsalud.gob.bo/ingresosistema",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sispoa2.minsalud.gob.bo/fmi/webd",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://suis.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://postulacion.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/control.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://teledu.ts.minsalud.gob.bo/moodle/login/forgot_password.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://telesalud.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://softcom.minsalud.gob.bo/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siahvtest.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo/",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo/Enlace_LoginInicio.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://svec.minsalud.gob.bo",
+    "host": "200.105.138.98",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://sus-envios.minsalud.gob.bo/index.php",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "https://suis-ws.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "https://uan.minsalud.gob.bo",
+    "host": "190.129.72.90",
+    "status_code": 403,
+    "tech": null
+  },
+  {
+    "url": "http://sispoa.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sinavisa.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sisvin.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sida.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://simed-unimed.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://vmti.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://unimed.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://teleconsulta.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://trobot.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://www.saludrenal.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://susv8.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://informa-sus.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://mailpro.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://ns2.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://pagosens.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sdit.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://servicios.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siahv2.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sicovid.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://siprunpcd.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sniservice.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://softcom.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://srvexpresswaye01.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://sus-envios.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://teledu.ts.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://telesalud.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  },
+  {
+    "url": "http://ts.minsalud.gob.bo",
+    "host": null,
+    "status_code": 0,
+    "tech": null
+  }
+]
