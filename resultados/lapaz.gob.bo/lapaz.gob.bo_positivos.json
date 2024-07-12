@@ -12,18 +12,6 @@
     ]
   },
   {
-    "url": "https://mail.lapaz.gob.bo/iredadmin/create/user/lapaz.gob.bo",
-    "host": "200.105.215.34",
-    "status_code": 303,
-    "tech": [
-      "Apache HTTP Server:2.4.6",
-      "CentOS",
-      "OpenSSL:1.0.1e",
-      "Python:2.7.5",
-      "mod_wsgi:3.4"
-    ]
-  },
-  {
     "url": "https://mail.gobernacionlapaz.gob.bo",
     "host": "200.105.215.34",
     "status_code": 200,
@@ -33,17 +21,6 @@
       "OpenSSL:1.0.1e",
       "Python:2.7.5",
       "mod_wsgi:3.4"
-    ]
-  },
-  {
-    "url": "https://siipp.lapaz.gob.bo",
-    "host": "104.21.28.112",
-    "status_code": 302,
-    "tech": [
-      "Cloudflare",
-      "HTTP/3",
-      "PHP:5.5.9",
-      "Ubuntu"
     ]
   },
   {
@@ -57,29 +34,6 @@
       "React",
       "Ubuntu",
       "Webpack"
-    ]
-  },
-  {
-    "url": "https://autonomias.lapaz.gob.bo",
-    "host": "172.67.145.225",
-    "status_code": 200,
-    "tech": [
-      "Cloudflare",
-      "Express",
-      "Google Analytics",
-      "HTTP/3",
-      "Node.js"
-    ]
-  },
-  {
-    "url": "https://siipp.lapaz.gob.bo",
-    "host": "104.21.28.112",
-    "status_code": 302,
-    "tech": [
-      "Cloudflare",
-      "HTTP/3",
-      "PHP:5.5.9",
-      "Ubuntu"
     ]
   },
   {
@@ -98,52 +52,21 @@
     ]
   },
   {
-    "url": "https://siremin.lapaz.gob.bo/login/",
-    "host": "172.67.145.225",
+    "url": "https://codepedis.lapaz.gob.bo",
+    "host": "104.21.28.112",
     "status_code": 200,
     "tech": [
       "Bootstrap",
       "Cloudflare",
-      "Django",
-      "HTTP/3",
-      "Popper",
-      "Python",
-      "Select2",
-      "cdnjs",
-      "jQuery",
-      "jsDelivr"
-    ]
-  },
-  {
-    "url": "https://lapaz.gob.bo",
-    "host": "104.21.28.112",
-    "status_code": 200,
-    "tech": [
-      "Bootstrap:3.4.0",
-      "Cloudflare",
-      "Google Hosted Libraries",
       "HTTP/3",
       "PHP:5.4.22",
       "jQuery"
     ]
   },
   {
-    "url": "https://www.lapaz.gob.bo",
-    "host": "172.67.145.225",
-    "status_code": 200,
-    "tech": [
-      "Bootstrap:3.4.0",
-      "Cloudflare",
-      "Google Hosted Libraries",
-      "HTTP/3",
-      "PHP:5.4.22",
-      "jQuery"
-    ]
-  },
-  {
-    "url": "https://siipp.lapaz.gob.bo/srt/login.php",
+    "url": "https://siipp.lapaz.gob.bo",
     "host": "104.21.28.112",
-    "status_code": 200,
+    "status_code": 302,
     "tech": [
       "Cloudflare",
       "HTTP/3",
@@ -152,58 +75,18 @@
     ]
   },
   {
-    "url": "https://lapaz.gob.bo/",
-    "host": "104.21.28.112",
-    "status_code": 200,
-    "tech": [
-      "Bootstrap:3.4.0",
-      "Cloudflare",
-      "Google Hosted Libraries",
-      "HTTP/3",
-      "PHP:5.4.22",
-      "jQuery"
-    ]
-  },
-  {
-    "url": "https://codepedis.lapaz.gob.bo",
+    "url": "https://sio.lapaz.gob.bo",
     "host": "172.67.145.225",
     "status_code": 200,
     "tech": [
       "Bootstrap",
       "Cloudflare",
+      "DataTables",
       "HTTP/3",
+      "Modernizr",
       "PHP:5.4.22",
-      "jQuery"
-    ]
-  },
-  {
-    "url": "https://sigeci.lapaz.gob.bo/",
-    "host": "104.21.28.112",
-    "status_code": 200,
-    "tech": [
-      "Cloudflare",
-      "HTTP/3",
-      "PHP:5.4.22"
-    ]
-  },
-  {
-    "url": "https://sigeci.lapaz.gob.bo/index",
-    "host": "104.21.28.112",
-    "status_code": 200,
-    "tech": [
-      "Cloudflare",
-      "HTTP/3",
-      "PHP:5.4.22"
-    ]
-  },
-  {
-    "url": "https://riesgosalm.lapaz.gob.bo",
-    "host": "172.67.145.225",
-    "status_code": 200,
-    "tech": [
-      "Cloudflare",
-      "HTTP/3",
-      "PHP:5.4.22"
+      "jQuery",
+      "jQuery UI"
     ]
   },
   {
@@ -217,63 +100,29 @@
     ]
   },
   {
-    "url": "https://sio.lapaz.gob.bo",
+    "url": "https://lapaz.gob.bo/",
     "host": "172.67.145.225",
     "status_code": 200,
     "tech": [
-      "Bootstrap",
+      "Bootstrap:3.4.0",
       "Cloudflare",
-      "DataTables",
+      "Google Hosted Libraries",
       "HTTP/3",
-      "Modernizr",
       "PHP:5.4.22",
-      "jQuery",
-      "jQuery UI"
+      "jQuery"
     ]
   },
   {
-    "url": "https://sio.lapaz.gob.bo",
-    "host": "172.67.145.225",
+    "url": "https://www.lapaz.gob.bo",
+    "host": "104.21.28.112",
     "status_code": 200,
     "tech": [
-      "Bootstrap",
+      "Bootstrap:3.4.0",
       "Cloudflare",
-      "DataTables",
+      "Google Hosted Libraries",
       "HTTP/3",
-      "Modernizr",
       "PHP:5.4.22",
-      "jQuery",
-      "jQuery UI"
-    ]
-  },
-  {
-    "url": "https://sio.lapaz.gob.bo/",
-    "host": "172.67.145.225",
-    "status_code": 200,
-    "tech": [
-      "Bootstrap",
-      "Cloudflare",
-      "DataTables",
-      "HTTP/3",
-      "Modernizr",
-      "PHP:5.4.22",
-      "jQuery",
-      "jQuery UI"
-    ]
-  },
-  {
-    "url": "https://sio.lapaz.gob.bo/",
-    "host": "172.67.145.225",
-    "status_code": 200,
-    "tech": [
-      "Bootstrap",
-      "Cloudflare",
-      "DataTables",
-      "HTTP/3",
-      "Modernizr",
-      "PHP:5.4.22",
-      "jQuery",
-      "jQuery UI"
+      "jQuery"
     ]
   },
   {
@@ -293,31 +142,27 @@
     ]
   },
   {
-    "url": "http://git.lapaz.gob.bo",
-    "host": "172.67.145.225",
-    "status_code": 301,
+    "url": "https://autonomias.lapaz.gob.bo",
+    "host": "104.21.28.112",
+    "status_code": 200,
     "tech": [
       "Cloudflare",
-      "HTTP/3"
+      "Express",
+      "Google Analytics",
+      "HTTP/3",
+      "Node.js"
     ]
   },
   {
-    "url": "http://sdia.lapaz.gob.bo/login",
-    "host": "186.121.242.109",
+    "url": "https://lapaz.gob.bo",
+    "host": "172.67.145.225",
     "status_code": 200,
     "tech": [
-      "Apache HTTP Server"
-    ]
-  },
-  {
-    "url": "http://smail.lapaz.gob.bo/",
-    "host": "186.121.242.109",
-    "status_code": 200,
-    "tech": [
-      "Apache HTTP Server:2.4.3",
-      "OpenSSL:1.0.1c",
-      "PHP:5.4.7",
-      "Windows Server",
+      "Bootstrap:3.4.0",
+      "Cloudflare",
+      "Google Hosted Libraries",
+      "HTTP/3",
+      "PHP:5.4.22",
       "jQuery"
     ]
   },
@@ -334,12 +179,21 @@
     ]
   },
   {
-    "url": "http://sdpd.lapaz.gob.bo",
+    "url": "http://git.lapaz.gob.bo",
     "host": "172.67.145.225",
     "status_code": 301,
     "tech": [
       "Cloudflare",
       "HTTP/2"
+    ]
+  },
+  {
+    "url": "http://sdpd.lapaz.gob.bo",
+    "host": "172.67.145.225",
+    "status_code": 301,
+    "tech": [
+      "Cloudflare",
+      "HTTP/3"
     ]
   },
   {
@@ -353,6 +207,15 @@
       "Laravel",
       "PHP",
       "Popper"
+    ]
+  },
+  {
+    "url": "http://sdia.lapaz.gob.bo",
+    "host": "186.121.242.109",
+    "status_code": 200,
+    "tech": [
+      "Apache HTTP Server",
+      "YouTube"
     ]
   },
   {

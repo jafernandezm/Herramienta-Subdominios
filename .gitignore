@@ -1,1 +1,6 @@
 .env
+
+/dnscan/
+/resultados/
+
+dominios.txt
